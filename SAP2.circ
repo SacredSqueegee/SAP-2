@@ -721,20 +721,22 @@
       <a name="inputtype" val="row"/>
       <a name="label" val="B_data"/>
     </comp>
-    <comp lib="8" loc="(556,21)" name="Text">
+    <comp lib="8" loc="(555,20)" name="Text">
       <a name="text" val="TODO:"/>
     </comp>
-    <comp lib="8" loc="(703,24)" name="Text">
+    <comp lib="8" loc="(700,20)" name="Text">
       <a name="text" val="Create Real Flags Register"/>
     </comp>
-    <comp lib="8" loc="(742,46)" name="Text">
+    <comp lib="8" loc="(740,45)" name="Text">
       <a name="text" val="Add support for interrupts and I/O"/>
     </comp>
-    <comp lib="8" loc="(98,24)" name="Text">
+    <comp lib="8" loc="(95,20)" name="Text">
       <a name="text" val="Clock Unit"/>
     </comp>
     <comp loc="(400,260)" name="Program_Counter"/>
-    <comp loc="(630,480)" name="ALU"/>
+    <comp loc="(630,480)" name="ALU">
+      <a name="facing" val="west"/>
+    </comp>
     <wire from="(100,440)" to="(120,440)"/>
     <wire from="(100,460)" to="(120,460)"/>
     <wire from="(100,490)" to="(150,490)"/>
